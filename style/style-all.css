@@ -34,8 +34,8 @@ section#top > div#circle > h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 3em;
+    transform: translate(-50%, -50%);
 
 }
 section#top > div#circle > p{
@@ -43,15 +43,19 @@ section#top > div#circle > p{
     top: 50%;
     left: 50%;
     margin-top: 15px;
-    transform: translate(-50%, 100%);
     font-size: .8em;
+    transform: translate(-50%, 100%);
 }
 section#top > h2 {
     text-align: center;
 }
 section#top > p.text{
-    text-align: center;
+
     margin: auto;
     max-width: 300px;
     min-width: 280px;
+}
+section#top > p#result {
+    background-color: black;
+    text-align: center;
 }
