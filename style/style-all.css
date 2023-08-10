@@ -19,7 +19,8 @@ main.conteiner {
 }
 section {
 
-    width: 67vw;
+    width: calc(100vw - 60px);
+
     padding: 0px 20px;
 }
 main.conteiner > section#top{
@@ -73,8 +74,53 @@ p#score {
     width: 250px;
 }
 section#bottom {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
 }
+section#bottom > div#up> h2 {
+    text-align: left;
+    margin: 10px;
+    font-size: 1em;
+}
+
+div.category{
+    
+    display: flex;
+    margin: 20px;
+    width: 87%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+section#bottom > div#summary > div.category >img {
+    margin-right:20px ;
+
+}
+
+
+section#bottom > div#summary > div#ireaction {
+   background-color: #fff7f4;
+
+}
+section#bottom > div#summary > div#imemory{
+    background-color: #fffbf0;
+}
+section#bottom > div#summary > div#iverbal {
+    background-color: #f2fbfa;;
+}
+section#bottom > div#summary > div#ivisual {
+    background-color:#f3f3fd
+}
+
+p.number {
+    text-align: right;
+    width: 600px;
+
+}
+
+
 section#bottom > input#continue {
 
     width: 100%;
@@ -87,3 +133,4 @@ section#bottom > input#continue {
     font-size: 1em;
     order: 1;
 }
+
