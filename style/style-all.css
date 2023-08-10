@@ -12,9 +12,7 @@ body {
     font-family:'Hanken Grotesk', sans-serif;
 }
 main.conteiner {
-
-    width: 90vw;
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
