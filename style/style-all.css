@@ -146,4 +146,7 @@ section#bottom > input#continue {
     order: 1;
     margin-bottom: 20px;
 }
-
+section#bottom > input#continue:hover {
+    background: linear-gradient( to bottom, #6743ff, hsl(241, 81%, 54%));
+    cursor: pointer;
+}
