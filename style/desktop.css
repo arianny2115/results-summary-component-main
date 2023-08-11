@@ -7,6 +7,7 @@ body {
     align-content: center;
 }
 main.conteiner {
+    height: 500px;
     width: 76vw;
     border-radius: 50px;
     box-shadow: 5px 5px  8px rgba(0, 0, 0, 0.178);
@@ -21,7 +22,7 @@ main.conteiner {
 main.conteiner > section#top{
     border-radius: 50px;
     margin-left: 100px;
-    height: 80vh;
+    height: 500px;
     width: 40vw;
 
 
@@ -49,7 +50,7 @@ section#bottom {
 
 
     width: 50vw;
-    height: 80vh;
+    height: 500px;
     margin-right: 12%;
 }
 section#bottom > div#up> h2 {
@@ -61,7 +62,6 @@ section#bottom > div#summary > div.category {
    width: 80%;
 }
 section#bottom > input#continue {
-
     width: 80%;
     padding: 19px;
     border-radius: 30px;
