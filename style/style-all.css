@@ -89,7 +89,6 @@ div.category{
     
     display: flex;
     margin: 20px;
-    width: 87%;
     padding: 20px;
     border-radius: 15px;
 }
@@ -128,7 +127,9 @@ section#bottom > div#summary > div#ivisual > p#visual {
 
 p.number {
     text-align: right;
+
     width: 600px;
+
 
 }
 
